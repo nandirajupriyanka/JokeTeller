@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3_4c5ac03eb5669f21fe4c18d20297847b71e1eecf.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -84,6 +93,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.20.0/2408070b2abec043624d35b35e30450f1b663858/google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.20.0_f59b23f515e22e3defd95a7338298bebb3ac6190.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -97,7 +115,7 @@
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="f57b33a3a4d957548a30f0a37633929efc3d45d6">
+        sha1="89b19dcc94846c4308d2651804f5a60cc278bc9a">
         <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/jokeslibrary_901085b051d325467c99abcc3101c1c716350a91.jar" />
     </item>
     <item
@@ -192,6 +210,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/backend/build/libs/backend-android-endpoints.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="45cb4c7def5899f90fd57e8b33b631541067a5d0">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/backend-android-endpoints_68ccab10988c78478710dff6e45d0f4c8c8af8a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -210,6 +237,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.20.0/d3e66209ae9e749b2d6833761e7885f60f285564/google-api-client-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/google-api-client-1.20.0_bac7270b55a65d045358db66d43413363e9c0efe.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -219,12 +255,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1_3c2b0d74d1ddb3be15541c5b93311339820c2c39.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
         <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_dad64438296ab9c9abfb4b0ef714db1d95b5d1b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.20.0/1d086ac5756475ddf451af2e2df6e288d18608ca/google-oauth-client-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.20.0_68bfe0560311b99040cdd341def54883e7d1027e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -291,12 +345,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0_737ea01d1efb2d271b915ff2b2ff2bc23c215098.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
         <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.8.0_8c2646cf8872e1b230af30c4614b5d9f67572eb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.20.0/5673179575c32b69a474334255c3044adf18d40/google-api-client-android-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.20.0_896e5bf1b2a52aa375b8d1773141da29395842c6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -315,6 +387,15 @@
         revision="24.0.3"
         sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
         <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_3ea9081624b2107de4a3f778b29a1c7092032bf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.20.0/313dc99a7963523871495897ca11aa8472b3c6fd/google-http-client-android-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.20.0_59ba0eeba1d0f7dad8eae1f311ffea1ca2baf9af.jar" />
     </item>
     <item
         is-multidex="false"
@@ -387,6 +468,15 @@
         revision="24.0.3"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
         <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_5a29e0d87995127b0163959d67ef3293278e90b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.20.0/93d82db2bca534960253f43424b2ba9d7638b4d2/google-http-client-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/google-http-client-1.20.0_70bf458e421a9138e506d939a1ba607be91e308b.jar" />
     </item>
     <item
         is-multidex="false"
