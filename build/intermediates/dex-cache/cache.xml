@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_31c184b6d6464c5742f9533c1c2a4f6a8830f01f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_c7fffc4a22b7a20e5411e06c5f494aab3ba4a0a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_dad64438296ab9c9abfb4b0ef714db1d95b5d1b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_62225a41d24ec341ee63ba4a74e8e751a9c89b7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_63750e161693a2ece2d632500189e01d136bd069.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_51f72ad8de21889a9e1c6fadc5296755035dd32d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_3c1fdc40d484d8e77a94c299e1969b2c76e07359.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_62222dd8afae236fbcdb227068685c902e785fef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_c59103de0c6e7d65314b93fdd6afe95cf50825f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.8.0_2bf4c8ae07f4ce175ed3b95dbeace2c255f7b312.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_ee79a44f246d69f4c1754330ed773a980f8f9023.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_2d5a0f4b5a255319cb30a89efb9781222a0a13e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_7db019903c25d8ba5ab266a27676d35b5265a72f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_d235711782817bd191ea3329e3fb029102d8e454.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_80a04b39a29ba1d9891b80a9c975b3ab62d48e21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.8.0_a84dbbaca266d1c78340caf4fc9f5a38c45b4093.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_785b87f8597717e39d27a24e0884ad03b147c051.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_bc65193d30511aa0a94ae6493f4b3c4d9813dcd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_98ba2d2a0788f113a8b77371c8f2568150bd60ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_71bd19ee5309cec5803315ae2269fae91ca6f403.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.8.0_57b16671e081ce978cfbc43a6c287ede9a91d6c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/jokeslibrary/build/libs/jokeslibrary.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="50b7825c0938df6201363bc567e3a1e896933e1c">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/jokeslibrary_901085b051d325467c99abcc3101c1c716350a91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_ad4dc9c995bc4f6f8a42828af23436dcb23a6d9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.8.0_5447f00f3cfd88766b53c44a76a376c2377e8898.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_2ae3f9949e237173fc4be0577924be998ea8e0fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.8.0_987a319f34a413ee9bf831e30171f9090dda2e45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_495e02d5dceebbbeb1c643d13469c2eaff420951.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_08049bc9cdfdfa8f03ee2da296b3f68a88cdf167.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_c129793d972c9daad710ba1c3ed499fec22e3601.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_0a6f5a2a6b28e95214c745410e6bf1c5aea57938.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_3fc9846377756c346acd02e7aa2e9de1552aa488.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.8.0_c8b9a53c94a8e9562872aed2982e27f0f33e071f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_6d18e5bb6f9608c68ea62856845f126d9a835485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.8.0_8c2646cf8872e1b230af30c4614b5d9f67572eb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_fa66c9ff50f6676481cee597ee6b4ad5b08ca135.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/jokeslibrary/build/libs/jokeslibrary.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="190c2bf6effffb9b87034eccc823dfcd21e14ed1">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/jokeslibrary_2b66439113e8b5d9a4887741e5601a1bf59a7bb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_bd159109855cd1b8d0594fcafa97d511ffcc01c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_7fd03bddfb7ba01fb893db3c9795a144d6d812fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_8370e14b6ea04cfe54878ba54515a59ff0106286.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_3811cfb7fd959bd42541e9ced95b30b387d70fbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/priyankanandiraju/Desktop/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_e107ed7a0a93bc1a09eb932d2649c4a4a60ff882.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_5905e3f272d70ba16c20bd60c1a9e889bd9ee504.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.8.0_329c92e98a828f46a85b66d17bb8cfeca26a2392.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_9df2b915d64c71b3a247464925c1f9dd412b4ad6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/priyankanandiraju/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_5a29e0d87995127b0163959d67ef3293278e90b0.jar" />
+    </item>
+
+</items>
