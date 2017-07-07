@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -16,6 +17,8 @@ import com.udacity.gradle.builditbigger.R;
  */
 public class MainActivityFragment extends Fragment {
 
+    private ProgressBar mProgressBar;
+
     public MainActivityFragment() {
     }
 
@@ -24,6 +27,7 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
 
+        mProgressBar = (ProgressBar) root.findViewById(R.id.progress_bar);
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.
@@ -33,5 +37,13 @@ public class MainActivityFragment extends Fragment {
                 .build();
         mAdView.loadAd(adRequest);
         return root;
+    }
+
+    public void showProgress() {
+        mProgressBar.setVisibility(View.VISIBLE);
+    }
+
+    public void dismissProgress() {
+        mProgressBar.setVisibility(View.GONE);
     }
 }

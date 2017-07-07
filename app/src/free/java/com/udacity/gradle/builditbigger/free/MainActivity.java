@@ -2,6 +2,7 @@ package com.udacity.gradle.builditbigger.free;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.Pair;
@@ -12,11 +13,10 @@ import android.view.View;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
-import com.udacity.gradle.builditbigger.EndPointsAsyncTask;
-import com.udacity.gradle.builditbigger.R;
+import com.udacity.gradle.builditbigger.*;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements EndPointsAsyncTask.EndPointsAsyncTaskComplete {
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private InterstitialAd mInterstitialAd;
@@ -60,19 +60,41 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
+        showProgress();
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
             Log.d(TAG, "The interstitial wasn't loaded yet.");
-            new EndPointsAsyncTask().execute(new Pair<Context, String>(MainActivity.this, "Hey"));
+            executeAsyncTask();
         }
 
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
                 loadNewInterstitialAd();
-                new EndPointsAsyncTask().execute(new Pair<Context, String>(MainActivity.this, "Hey"));
+                executeAsyncTask();
             }
         });
+    }
+
+    private void executeAsyncTask() {
+        new EndPointsAsyncTask(this).execute(new Pair<Context, String>(MainActivity.this, "Hey"));
+    }
+
+    public void showProgress() {
+        FragmentManager fm = getSupportFragmentManager();
+        MainActivityFragment fragment = (MainActivityFragment) fm.findFragmentById(R.id.fragment);
+        fragment.showProgress();
+    }
+
+    public void dismissProgress() {
+        FragmentManager fm = getSupportFragmentManager();
+        MainActivityFragment fragment = (MainActivityFragment) fm.findFragmentById(R.id.fragment);
+        fragment.dismissProgress();
+    }
+
+    @Override
+    public void onAsyncCompleted() {
+        dismissProgress();
     }
 }

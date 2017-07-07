@@ -2,19 +2,23 @@ package com.udacity.gradle.builditbigger;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.udacity.gradle.builditbigger.EndPointsAsyncTask.EndPointsAsyncTaskComplete;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity implements EndPointsAsyncTaskComplete {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
 
@@ -41,6 +45,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        new EndPointsAsyncTask().execute(new Pair<Context, String>(this, "Hey"));
+        showProgress();
+        new EndPointsAsyncTask(this).execute(new Pair<Context, String>(this, "Hey"));
+    }
+
+    public void showProgress() {
+        FragmentManager fm = getSupportFragmentManager();
+        MainActivityFragment fragment = (MainActivityFragment) fm.findFragmentById(R.id.fragment);
+        fragment.showProgress();
+    }
+
+    public void dismissProgress() {
+        FragmentManager fm = getSupportFragmentManager();
+        MainActivityFragment fragment = (MainActivityFragment) fm.findFragmentById(R.id.fragment);
+        fragment.dismissProgress();
+    }
+
+    @Override
+    public void onAsyncCompleted() {
+        dismissProgress();
     }
 }

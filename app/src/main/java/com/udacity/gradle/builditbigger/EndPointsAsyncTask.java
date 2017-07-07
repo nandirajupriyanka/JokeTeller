@@ -23,6 +23,12 @@ public class EndPointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
     private MyApi myApiService = null;
     private Context context;
 
+    private EndPointsAsyncTaskComplete mAsyncTaskComplete;
+
+    public EndPointsAsyncTask(EndPointsAsyncTaskComplete mAsyncTask) {
+        this.mAsyncTaskComplete = mAsyncTask;
+    }
+
     @Override
     protected String doInBackground(Pair<Context, String>... params) {
         if (myApiService == null) {
@@ -54,9 +60,15 @@ public class EndPointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
 
     @Override
     protected void onPostExecute(String result) {
+        mAsyncTaskComplete.onAsyncCompleted();
         Intent intent = new Intent(context, JokeActivity.class);
         intent.putExtra(JokeActivity.JOKES_KEY, result);
         context.startActivity(intent);
     }
+
+    public interface EndPointsAsyncTaskComplete {
+        public void onAsyncCompleted();
+    }
+
 }
 
