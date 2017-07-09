@@ -43,3 +43,32 @@ dependencies {
     compile 'com.android.support:support-v4:25.3.1'
     freeCompile 'com.google.android.gms:play-services-ads:11.0.2'
 }
+
+
+task runAndroidTests {
+    dependsOn "connectedAndroidTest"
+
+    doLast {
+        println '***************** Run android tests *****************'
+    }
+}
+
+task runGceServer {
+    dependsOn ":backend:appengineRun"
+    project(":backend").afterEvaluate { backend ->
+        backend.extensions.appengine.daemon = true
+    }
+    doLast {
+        println '***************** Server started *****************'
+    }
+}
+
+task stopGceServer {
+    dependsOn ":backend:appengineStop"
+    doLast {
+        println '***************** Server stopped *****************'
+    }
+}
+
+runGceServer.finalizedBy runAndroidTests
+runAndroidTests.finalizedBy stopGceServer

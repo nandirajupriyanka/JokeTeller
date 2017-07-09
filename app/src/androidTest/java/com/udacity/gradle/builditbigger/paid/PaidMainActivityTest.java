@@ -1,13 +1,17 @@
-package com.udacity.gradle.builditbigger;
+package com.udacity.gradle.builditbigger.paid;
 
 
 import android.support.test.espresso.ViewInteraction;
+import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
+
+import com.udacity.gradle.builditbigger.MainActivity;
+import com.udacity.gradle.builditbigger.R;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
@@ -27,31 +31,22 @@ import static org.hamcrest.Matchers.allOf;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
-public class MainActivityTest {
+public class PaidMainActivityTest {
 
     @Rule
-    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+    public ActivityTestRule<com.udacity.gradle.builditbigger.MainActivity> mActivityTestRule = new ActivityTestRule<>(com.udacity.gradle.builditbigger.MainActivity.class);
 
     @Test
-    public void mainActivityTest() {
-        // Added a sleep statement to match the app's execution delay.
-        // The recommended way to handle such scenarios is to use Espresso idling resources:
-        // https://google.github.io/android-testing-support-library/docs/espresso/idling-resource/index.html
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
+    public void paidMainActivityTest() {
         ViewInteraction appCompatButton = onView(
                 allOf(withText("Tell Joke"),
-                        withParent(allOf(withId(R.id.fragment),
+                        withParent(allOf(ViewMatchers.withId(R.id.fragment),
                                 withParent(withId(android.R.id.content)))),
                         isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction textView = onView(
-                allOf(withId(R.id.tv_joke),
+                allOf(withId(R.id.tv_joke), withText("My friend thinks he is smart. He told me an onion is the only food that makes you cry, so I threw a coconut at his face."),
                         childAtPosition(
                                 childAtPosition(
                                         withId(android.R.id.content),
